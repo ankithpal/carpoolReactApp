@@ -1,0 +1,39 @@
+.header {
+  width: 90vw;
+  height: 18vh;
+  .header-profile-menu-bar {
+    .header-profile {
+      position: relative;
+      img {
+        margin-left: 12px;
+        width: 40px;
+      }
+    }
+    .menu-bar {
+      height: 15vh;
+      color: grey;
+      background-color: white;
+      border: 2px solid rgb(241, 237, 237);
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 100%;
+      .list-option {
+        width: 100%;
+        height: 5vh;
+        padding-left: 20%;
+        text-decoration: none;
+        a {
+          text-decoration: none;
+          color: grey;
+        }
+      }
+      .selected-item {
+        background-color: blue;
+      }
+      .selected-item a {
+        color: white;
+      }
+    }
+  }
+}

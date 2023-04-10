@@ -1,0 +1,83 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  background-image: url("../../assets/img3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  .book-offer-card {
+    height: 40vh;
+    width: 50vw;
+    .inner-card {
+      width: 85%;
+      height: 80%;
+      min-width: 310px;
+      .card-header {
+        height: 20%;
+        background-color: white;
+        // background-color: red;
+        border: none;
+      }
+      .card-header h2 {
+        font-weight: bold;
+        width: inherit;
+        left: 0;
+      }
+      .card-inner-container {
+        min-width: 310px;
+        .book-ride {
+          min-width: 300px;
+          height: 25vh;
+          color: white;
+          background-color: rgb(130, 97, 180);
+          border-radius: 12px;
+
+          link {
+            color: white;
+            text-decoration: none;
+          }
+        }
+        .book-ride h3 {
+          Link {
+            color: white;
+            text-decoration: none;
+          }
+        }
+        .book-ride:hover {
+          cursor: pointer;
+        }
+        .offer-ride:hover {
+          cursor: pointer;
+        }
+        .offer-ride {
+          min-width: 300px;
+          height: 25vh;
+          color: white;
+          background-color: orange;
+          border-radius: 12px;
+        }
+        link {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1414px) {
+  .home {
+    .book-offer-card {
+      .inner-card {
+        .card-inner-container {
+          .book-ride {
+            margin-bottom: 12px;
+          }
+          .offer-ride {
+            margin-top: 12px;
+          }
+        }
+      }
+    }
+  }
+}

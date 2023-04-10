@@ -1,0 +1,48 @@
+.history-container {
+  width: 100vw;
+  min-height: 80vh;
+
+  .bookedride {
+    width: 550px;
+    height: inherit;
+    .bookride-inner {
+      max-width: 400px;
+      // width: 350px;
+      height: 60vh;
+      // background-color: red;
+      .booked-ride-header {
+        background-color: rgb(130, 97, 180) !important;
+      }
+      .offered-ride-header {
+        width: 180px;
+        color: white;
+        background-color: orange;
+        height: 40px;
+        border-radius: 5px;
+      }
+      .cards-container {
+        height: inherit;
+        overflow-y: scroll;
+        overflow-x: hidden;
+      }
+      .cards-container::-webkit-scrollbar {
+        display: none;
+      }
+      .cards-container {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    // background-color: rgba(144, 238, 144, 0.466);
+    // background-color: rgba(170, 234, 170, 0.449);
+    background-color: rgba(4, 249, 24, 0.099);
+  }
+  .bookride-inner{
+    width: 90%;
+  }
+}

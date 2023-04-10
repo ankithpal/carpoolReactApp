@@ -1,0 +1,43 @@
+.signup {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  .left-col {
+    flex: 2;
+    .inner-left-col {
+      background-color: white;
+      .inner-left-inner-col {
+        width: 90%;
+        .logo {
+          height: 30%;
+        }
+        .middle-text {
+          height: 70%;
+          .content {
+            height: 75%;
+            font-size: 6vw;
+            font-weight: 900;
+          }
+        }
+        .middle-text p {
+          font-weight: bolder;
+          font-size: 2em;
+        }
+      }
+    }
+  }
+  .right-col {
+    flex: 1;
+    background-image: url(../../assets/imgg2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .signup {
+    .left-col {
+      display: none;
+    }
+  }
+}

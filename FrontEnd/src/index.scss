@@ -1,0 +1,18 @@
+:root{
+   --orange-shade-color : orange;
+   --violet-shade-color : rgb(148 , 28 , 256);
+}
+.violet-shade-bg{
+   background-color: var(--violet-shade-color);
+}
+.violet-shade-c{
+  color: var(--violet-shade-color);
+}
+.orange-shade-bg{
+  background-color: var(--orange-shade-color);
+}
+.orange-shade-c{
+ color: var(--orange-shade-color);
+}
+
+

@@ -1,0 +1,24 @@
+.timestamp {
+  p {
+    color: grey;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .time-container {
+    .time-div {
+      width: 80px;
+      height: 23px;
+      border-radius: 25px;
+      font-size: 0.7em;
+      border: 2px solid rgb(130, 97, 180);
+      color: black;
+    }
+    .time-div:hover {
+      cursor: pointer;
+    }
+    .selected-time {
+      background-color: rgb(130, 97, 180);
+      color: white;
+    }
+  }
+}
